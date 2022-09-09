@@ -4,346 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/simple-grid.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/simple-grid.css" />
+    <link rel="icon"href="https://bemach1.com.br/wp-content/uploads/2022/03/cropped-Logo-Mach-Favicon-1-32x32.png"/>
     <title>Conclusâo de modulo-3-css</title>
   </head>
   <body>
     <header>
-      <div class="conteiner">
-        <div class="item">
-          <div class="logo">
+      <div class="menu_topo">
+        <div class="logo">
+          <img class="logo-desktop" src="/assets/imagens/img/logo.svg" />
+          <img class="logo-mobile" src="/assets/imagens/img/music.svg" />
+        </div>
+  
+        <div class="busca">
+          <input type="search" placeholder="Buscar..." />
+          <div class="botoes-topo">
+            <img id="lupa" src="/assets/imagens/img/pesq.svg" />
+          </div>
+        </div>
+  
+        <div class="pesquisa">
+          <div class="vetores">
             <img
-              class="logo-desktop"
-              src="/assets/imagens/img/logo.svg"
-              alt="logo"
-            />
-            <img
-              class="logo-mobile"
-              src="assets/imagens/img/music.svg"
-              alt="logo"
+              id="vetor-topo"
+              src="/assets/imagens/img/msg.svg"
+              alt="mensagem"
             />
           </div>
-
-          <div class="pesquisa">
-            <input type="text" id="texto" placeholder="Buscar..." />
-            <button class="btn">
-              <img class="lupa" src="/assets/imagens/img/pesq.svg" alt="lupa" />
-            </button>
+          <div class="vetores">
+            <img
+              id="vetor-topo"
+              src="/assets/imagens/img/config.svg"
+              alt="configuracâo"
+            />
           </div>
-
-          <div class="menu">
-            <div class="botao-icone">
-              <div class="vetor">
-                <img src="/assets/imagens/img/Vector (6).svg" alt="mensagem" />
-              </div>
-            </div>
-
-            <div class="botao-icone">
-              <div class="vetor">
-                <div>
-                  <img
-                    src="/assets/imagens/img/Vector (7).svg"
-                    alt="configuracao"
-                  />
-                </div>
-              </div>
-            </div>
-
-            <div class="botao-icone">
-              <div class="vetor">
-                <div>
-                  <img
-                    src="/assets/imagens/img/Vector (8).svg"
-                    alt="notificacao"
-                  />
-                </div>
-                <span class="notificacao">
-                  <img src="/assets/imagens/img/Ellipse 1 (1).svg" />
-                </span>
-              </div>
-            </div>
-             
-            <div class="vetor">
-                <div class="menu-imagem">
-                  <img
-                      src="/assets/imagens/img/Rectangle 38 (1).svg"
-                    alt="imagem Etta james"
-                  />
-                </div>
-              </div>
-            </div>
+          <div class="vetores">
+            <img
+              id="vetor-topo"
+              src="/assets/imagens/img/notificacao.svg"
+              alt="notificacâo"
+            />
+          </div>
+          <div class="vetores">
+            <img src="/assets/imagens/img/img.svg" alt="Etta James" />
           </div>
         </div>
       </div>
-    </header>
-
-    <main>
       <div class="row">
-        <div class="col-4">
-          perfil
-          <img src="/assets/imagens/img/Frame 7 (1).svg" alt="Etta james" />
-
-          <div class="perfil">
-            <h4>Etta James</h4>
-            <p>Cantora de blues, R&B, jazz e música gospel</p>
-
-            <p>
-              22ª posição entre osmaiores cantores de<br />
-              os tempos, pela revista Rolling Stone,<br />
-              sendo a 3ª mulher mais bem colocada.
-            </p>
-            <div class="bloco">
-              <div>324M Seguidores</div>
-            </div>
-            <div class="bloco">
-              <div>325M Seguidores</div>
-            </div>
-            <hr />
-            <div class="botao-config">
-              <div>
-                <img src="/assets/imagens/img/feed.svg" alt="feed" />
-                <a class="link" href="#"> <span>Feed</span></a>
-              </div>
-            </div>
-            <div class="botao-config">
-              <div>
-                <img src="/assets/imagens/img/concecoes.svg" alt="conecçôes" />
-                <a class="link" href="#"><span>Conecções</span></a>
-              </div>
-            </div>
-            <div class="botao-config">
-              <div>
-                <img
-                  src="/assets/imagens/img/ultimas noticias.svg"
-                  alt="ultimas noticias"
-                />
-                <a class="link" href="#"><span>Últimas notícias</span></a>
-              </div>
-            </div>
-            <div class="botao-config">
-              <div>
-                <img src="/assets/imagens/img/eventos.svg" alt="eventos" />
-                <a class="link" href="#"><span>Eventos</span></a>
-              </div>
-            </div>
-            <div class="botao-config">
-              <div>
-                <img src="/assets/imagens/img/configu.svg" alt="configuracao" />
-                <a class="link" href="#"><span>Configurações</span></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-4">
-        
-          <div class="box-story">
-            <div>
-             <p>Novo story</p>
-             <img class="vetor-story"src="/assets/imagens/img/story.svg "alt="story">
-            </div>
-            <div class="box-story">
-              <img src="/assets/imagens/img/story-1.svg" alt="lua de sangue" />
-            </div>
-            <div class="box-story">
-              <img src="/assets/imagens/img/notebook.svg" alt="notebook" />
-            </div>
-            <div class="box-story">
-              <img src="/assets/imagens/img/dardo.svg" alt="dardo" />
-            </div>
-            <div class="box-story">
-              <img src="/assets/imagens/img/mach1.svg" alt="mach1" />
-            </div>
-          </div>
-          <div class="box-scroll">
-            <div class="box-scroll-1">
-
-          </div>
-          <div class="box-text-area">
-            <div class="imagem">
-              <img
-                src="/assets/imagens/img/etta-text-area.svg"
-                alt="etta james"
-              />
-            </div>
-            <textarea class="escreva "placeholder="Placeholder do textarea..."></textarea>
-           <div class="text-incluir">Incluir</div>
-           <br>
-           
-              
-           
-            <div>
-              <button class="button_postar"id="postar" name="button">Postar</button>
-            </div>
-           
-            <div class="conteiner-botoes">
-              <ul>
-                <li class="conteiner-button">
-                  <button class="button-envio">
-                    <span>
-                      Foto
-                    </span>
-                  </button>
-                </li>
-                <li class="conteiner-button">
-                  <button class="button-envio">
-                    <span>
-                      Envio
-                    </span>
-                  </button>
-                </li>
-                <li class="conteiner-button">
-                  <button class="button-envio">
-                    <span>
-                      Evento
-                    </span>
-                  </button>
-                </li>
-              </ul>
-            </div>
-            <div class="conteiner_sobre">
-              <div class="imagem_nina_simone flex">
-              <img src="/assets/imagens/img/nina simone.svg"alt="nina simone">
-             
-              <span><h6>Nina Simone <strong >-Há 4 horas</strong></h6></span>
-          
-              <p>Cantora e compositora</p>
-          
-            </div>
-            <div class="informaçoes-nina_simone">
-             <p>Zoe Saldana se transforma em Nina Simone no primeiro cartaz da
-              biografia sobre a cantora.
-             Além de estrelar franquias blockbusters como Guardiões da
-             2 e Star Trek:Sem Fronteiras, Zoe Saldana terá uma
-             complicada missão pela frente:interpretar a lendária cantora Nina
-             Simone.<a href="#">Saiba mais...</a></p>
-             <buton class="comentarios">30 comentarios</buton>
-           </div>
-          <div class="box-botoes">
-           <ul>
-            <li class="conteiner-button">
-            <button class="button-curtir"id="botao">
-              <span>
-                Gostei
-              </span>
-            </button>
-            </li>
-            <li class="conteiner-button"id=botao>
-              <button class="button-compartilhar">
-              <span>
-                Compartilhar
-              </span>
-              </button>
-            </li>
-           </ul>
-           
-           
-          </div>
-          <div>
-            
-            <img id="imagem-comentarios"src="/assets/imagens/img/etta-text-area.svg" alt="etta james">  
-           
-            <textarea id="comente"placeholder="Comente sobre isso..."></textarea>
-           
-          </div>
-          <div class="conteiner_sobre">
-            <div class="imagem_frank_sinatra">
-              <img src="/assets/imagens/img/franksinatra.svg" alt="frank-sinatra">
-              <span><h6>Frank Sinatra<strong >-Há 4 horas</strong></h6></span>
-          
-              <p>Cantor e ator</p>
-            </div>
-            <div>
-              <p>New York, minha inspiração para canções...</p> 
-              
-              <img id="imagem_new_york"src="/assets/imagens/img/new-york.svg"alt="new-york"> 
-              
-              <div>
-                <buton class="comentarios-1">425 comentarios</buton>
-              </div>
-            </div> 
-            <div class="box-botoes-1">
-              <ul>
-               <li class="conteiner-button">
-               <button class="button-curtir"id="botao">
-                 <span>
-                   Gostei
-                 </span>
-               </button>
-               </li>
-               <li class="conteiner-button"id=botao>
-                 <button class="button-compartilhar">
-                 <span>
-                   Compartilhar
-                 </span>
-                 </button>
-
-               </li>
-               
-               
-              </ul>
-           
-
-            </div>
-            <div>
-            
-              <img id="imagem-comentarios"src="/assets/imagens/img/etta-text-area.svg" alt="etta james">  
-             
-              <textarea id="comente"placeholder="Comente sobre isso..."></textarea>
-             
-            </div>
-          </div>
-
-    
-        </div>
-        <div class="col-4">perfil
-          <div class="noticias">
-            
-
-            <div class="lista-favoritos">
-              <div class="botao-lista">
-                <img src="/assets/imagens/img/nina simone.svg" alt="frank-sinatra">
-                <div>
-                
-                </div>
-                <span><h6>Nina Simone<br><strong >cantora e compositora</strong></h6></span>
-              </div>
-            <div>
-              <div class="botao-lista">
-                <img src="/assets/imagens/img/franksinatra.svg" alt="frank-sinatra">
-                <div>
-                 
-                </div>
-                <span><h6>Frank Sinatra<br><strong >cantor e ator</strong></h6></span>
-              </div>
-            <div>
-              <div class="botao-lista">
-                <img src="/assets/imagens/img/ella.svg" alt="frank-sinatra">
-              <div>
-                
-              </div>
-                <span><h6>Ella Fitzgerald<br><strong >cantora e compositora</strong></h6></span>
-            </div>
-            <div>
-              <div class="botao-lista">
-                <img src="/assets/imagens/img/louis.svg" alt="frank-sinatra">
-              <div>
-               
-              </div>
-                <span><h6>Louis Armstrong<br><strong >musico e vocalista</strong></h6></span>
-              </div>
-            <div>
-              <div class="botao-lista">
-                <img src="/assets/imagens/img/amy.svg" alt="frank-sinatra">
-                <div>
-                 
-                </div>
-                <span><h6>Amy Winehouse<br><strong >cantora e compositora</strong></h6></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
-    </main>
+        <div class="col-3"></div>
+        <div class="col-5"></div>
+        <div class="col-3"></div>
+      </div>
+    </header>
   </body>
 </html>
