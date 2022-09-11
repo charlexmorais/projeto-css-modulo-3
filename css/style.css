@@ -21,7 +21,9 @@ body {
 @media only screen and (max-width: 420px) {
   .logo-desktop {
     display: none;
+    
   }
+
 
   .logo-mobile {
     display: block;
@@ -63,6 +65,11 @@ body {
   align-items: center;
   padding: 15px;
 }
+#elipse{
+position: absolute;
+
+
+}
 
 .vetores {
   width: 48px;
@@ -103,6 +110,31 @@ body {
   border: 1px solid #e0e0e0;
   border-radius: 4px;
 }
-#planodefundo-perfil{
-  width: 100%;
+#perfil-1{
+
+width: 100%;
+
+
+
+}
+
+
+#perfil-2 {
+position: relative;
+width: 50%;
+left: 25%;
+margin-top: -40%;
+
+
+
+background: url(etta.jpg);
+/* Content Colors/Branco puro */
+
+border: 5px solid #FFFFFF;
+border-radius: 4px;
+
+
+}
+.m_baner_perfil{
+
 }
